@@ -1,0 +1,128 @@
+Here is the complete list of the variables - 66 features (measures) and 2 descriptive fields (activity_name and subject):
+
+1	activity_name
+2	subject
+3	tBodyAcc_mean_X
+4	tBodyAcc_mean_Y
+5	tBodyAcc_mean_Z
+6	tGravityAcc_mean_X
+7	tGravityAcc_mean_Y
+8	tGravityAcc_mean_Z
+9	tBodyAccJerk_mean_X
+10	tBodyAccJerk_mean_Y
+11	tBodyAccJerk_mean_Z
+12	tBodyGyro_mean_X
+13	tBodyGyro_mean_Y
+14	tBodyGyro_mean_Z
+15	tBodyGyroJerk_mean_X
+16	tBodyGyroJerk_mean_Y
+17	tBodyGyroJerk_mean_Z
+18	tBodyAccMag_mean
+19	tGravityAccMag_mean
+20	tBodyAccJerkMag_mean
+21	tBodyGyroMag_mean
+22	tBodyGyroJerkMag_mean
+23	fBodyAcc_mean_X
+24	fBodyAcc_mean_Y
+25	fBodyAcc_mean_Z
+26	fBodyAccJerk_mean_X
+27	fBodyAccJerk_mean_Y
+28	fBodyAccJerk_mean_Z
+29	fBodyGyro_mean_X
+30	fBodyGyro_mean_Y
+31	fBodyGyro_mean_Z
+32	fBodyAccMag_mean
+33	fBodyBodyAccJerkMag_mean
+34	fBodyBodyGyroMag_mean
+35	fBodyBodyGyroJerkMag_mean
+36	tBodyAcc_std_X
+37	tBodyAcc_std_Y
+38	tBodyAcc_std_Z
+39	tGravityAcc_std_X
+40	tGravityAcc_std_Y
+41	tGravityAcc_std_Z
+42	tBodyAccJerk_std_X
+43	tBodyAccJerk_std_Y
+44	tBodyAccJerk_std_Z
+45	tBodyGyro_std_X
+46	tBodyGyro_std_Y
+47	tBodyGyro_std_Z
+48	tBodyGyroJerk_std_X
+49	tBodyGyroJerk_std_Y
+50	tBodyGyroJerk_std_Z
+51	tBodyAccMag_std
+52	tGravityAccMag_std
+53	tBodyAccJerkMag_std
+54	tBodyGyroMag_std
+55	tBodyGyroJerkMag_std
+56	fBodyAcc_std_X
+57	fBodyAcc_std_Y
+58	fBodyAcc_std_Z
+59	fBodyAccJerk_std_X
+60	fBodyAccJerk_std_Y
+61	fBodyAccJerk_std_Z
+62	fBodyGyro_std_X
+63	fBodyGyro_std_Y
+64	fBodyGyro_std_Z
+65	fBodyAccMag_std
+66	fBodyBodyAccJerkMag_std
+67	fBodyBodyGyroMag_std
+68	fBodyBodyGyroJerkMag_std
+
+
+
+There are 30 'subject's with IDs 1 to 30.
+Each 'subject' has performed each of 6 activities:
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+
+There are, thus, 180 records (rows) in this dataset (30 * 6)
+
+There are 66 features - each either a mean (_mean) or a standard deviation (_std) of one of the following features, 
+and finally aggregated and averaged on groups (unique combinations) of 'subject', 'activity_name'
+
+
+(quoting from the code book provided by authors of data set)
+"
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
+These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. 
+Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) 
+using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+"
